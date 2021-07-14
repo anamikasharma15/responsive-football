@@ -48,3 +48,117 @@ body{
     height: 438px;
     
 }
+ /* -----------
+ middle part
+ ------------ */
+ .top-player{
+    padding-left: 100px;
+    padding-right: 110px;
+    padding-bottom: 100px;
+ }
+.football-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:27px;
+    grid-column-gap:30px;
+}
+.player{
+    width: 325px;
+    height: 474px;
+    border:5px solid white;
+    box-shadow:0 0 5px grey;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.player img{
+    width: 324px;
+    height: 256px;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-info{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+/* highlight part */
+.highlight{
+    text-align: center;
+    background-color: mediumorchid;
+}
+
+.video-container{
+    
+
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    padding:0;
+
+    } 
+    /* match */
+    .match img{
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 500px;
+    }
+    
+    /* --------
+    footer part
+    ---------- */
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 475px; 
+        padding-right: 480px;
+    }
+    .footer-img img{
+        width: 483.87px;
+        height: 110px;
+     }
+     .footer-icons{
+        padding-left: 155px;
+        padding-right: 155px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-icons a{
+        background-color: lightgray;
+        border-radius: 10%;
+        height: 50px;
+        width: 50px;
+        margin-right: 14px;
+    }
+    .fa-instagram{
+        width: 16px;
+        height: 13px;
+        color: #969BAB;
+    }
+    .fa-basketball-ball{
+        width: 16px;
+        height: 13px;
+        color: #969BAB;
+     }
+     .fa-twitter{
+        width: 16px;
+        height: 13px;
+        color: #969BAB;
+     }
+     .fa-youtube{
+        width: 16px;
+        height: 13px;
+        color: #969BAB;
+     }
+     .copyright{
+         padding-left: 124px;
+         padding-right: 124px;
+     }
