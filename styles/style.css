@@ -1,0 +1,50 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common items and utility */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.background-img{
+    background-color: #2D25A0;
+    
+}
+.container{
+    display: flex;
+    margin-bottom: 86px;
+    padding-left: 128px;
+    padding-right: 110px;
+    padding-top:25px;
+}
+.half-width{
+    width: 50%;
+    
+}
+.football{
+    width: 623px;;
+    height: 230px;;
+    font-size: 64px;
+    color: #FFFFFF;;
+}
+.Watch{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    transition: transform 5s linear infinite;
+}
+.Watch:hover{
+    background-color:green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.half-width img{
+
+    width: 556.01px;
+    height: 438px;
+    
+}
